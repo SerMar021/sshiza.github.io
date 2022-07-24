@@ -1,0 +1,77 @@
+
+.glow-button {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 40px #460505 inset, 0 0 0 0 #460303;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(216, 216, 216);
+    transition: .15s ease-in-out;
+    margin: 10px auto 20px;
+    display: block;
+    }
+    .glow-button:hover {
+    box-shadow: 0 0 10px 0 #9b1616 inset, 0 0 10px 4px #96567c;
+    color: #5e064b;
+    margin: 10px auto 20px;
+    display: block;
+    }
+    body{
+        background-image: url(img/glitch_2022-7-24_15-38-20.gif);
+    }
+    .image {
+        margin: 200px auto 20px;
+        display: block;
+        width: 540px;
+        height: 600px;
+    
+    }
+    @media screen and (max-width: 1024px) {
+        .image {
+            margin: 200px auto 20px;
+            display: block;
+            width: 690px;
+            height: 800px;
+        }
+        .glow-button {
+            text-decoration: none;
+            display: inline-block;
+            padding: 50px 100px;
+            margin: 100px 200px;
+            border-radius: 50px;
+            box-shadow: 0 0 40px 40px #460505 inset, 0 0 0 0 #460303;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: rgb(131 37 37);
+            margin: 350px auto 20px;
+            display: flex;
+            outline: none;
+            border: 0;
+            background: transparent;
+            font-size: 70px;
+            }
+        .glow-button:hover {
+            text-decoration: none;
+            display: inline-block;
+            padding: 50px 100px;
+            margin: 100px 200px;
+            border-radius: 50px;
+            box-shadow: 0 0 40px 40px #460505 inset, 0 0 0 0 #460303;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+            letter-spacing: 3px;
+            color: rgb(131 37 37);
+            margin: 350px auto 20px;
+            display: flex;
+            outline: none;
+            border: 0;
+            background: transparent;
+            font-size: 70px;
+            }
+    
+    }
